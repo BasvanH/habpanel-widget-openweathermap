@@ -17,6 +17,7 @@ OpenWeatherMap widget for HABPanel (OpenHAB). It's build for use with the free A
 - Create a folder within '/conf/html/' folder, lets assume you named it 'openweathermap'.
 - Place the 'weather-icons-master' folder in the '/conf/html/openweathermap/' folder.
 - Place the 'images' folder in the '/conf/html/openweathermap/' folder.
+- Add the items to an items file, see this post for the items.
 - Import the downloaded **openweathermap.widget.json** widget to your HABpanel.
 - Add the widget to a dashboard, open the settings.
 -- Set the path to the openweathermap folder like '/static/openweathermap/'  ('/static/' is the outside url for the path '/conf/html/')
