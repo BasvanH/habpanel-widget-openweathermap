@@ -1,5 +1,4 @@
-# habpanel-widget-openweathermap
-OPENHab widget for weather statususing the OpenWeatherMap binding.
+# OpenWeatherMap widget for HABpanel (Openhab)
 
 ## Description
 OpenWeatherMap widget for HABpanel (Openhab). It's build for use with the free API key, no paid subscription is nescacary.
