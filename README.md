@@ -23,7 +23,7 @@ OpenWeatherMap widget for HABPanel (OpenHAB). It's build for use with the free A
   * Set the path to the HTML url like '/static/openweathermap/'  ('/static/' is the outside url for the path '/conf/html/')
   * Customize the look and feel with the colors and sizes.
   * Save the widget en size it to your likings.
-  * Enjoy en drop me a like here:
+  * Enjoy en drop me a like here on the [Openhab cummunity forum](https://community.openhab.org/t/openweathermap-widget-for-habpanel/65027).
 
 The complete structure would look like this:
 
@@ -36,6 +36,6 @@ The complete structure would look like this:
       - wind.png
 
 ## Help
-If you need any help, use this [topic](https://community.openhab.org/t/weather-underground-widget-with-forecast/40260) on the Openhab community forum.
+If you need any help, use this [topic](https://community.openhab.org/t/openweathermap-widget-for-habpanel/65027) on the Openhab community forum.
 
-For issues and feature requests, please use the [Issues module](https://github.com/BasvanH/habpanel-widget-weatherunderground/issues) on Github.
+For issues and feature requests, please use the [Issues module](https://github.com/BasvanH/habpanel-widget-openweathermap/issues) on Github.
