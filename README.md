@@ -14,11 +14,11 @@ OpenWeatherMap widget for HABPanel (OpenHAB). It's build for use with the free A
 - Configure the Thing: **OpenWeatherMap Account** set your API key and set preferred settings.
 - Configure the Thing: **Local weather and forecast** set Hours to 96 and days to 1 (to get forecast with free API key)
 - If you havent done already, change your locality of Openhab in Paperui / Configuration / System / Regional Settings and restart Openhab and clear your browsers cache. This way the Widget will follow te locallity with transforming the dates and units.
-- Import the downloaded **openweathermap.widget.json** widget to your HABpanel.
 - Create a folder within '/conf/html/' folder, lets assume you named it 'openweathermap'.
 - Place the 'weather-icons-master' folder in the '/conf/html/openweathermap/' folder.
 - Place the 'images' folder in the '/conf/html/openweathermap/' folder.
-- Import the widget to a dashboard, open the settings.
+- Import the downloaded **openweathermap.widget.json** widget to your HABpanel.
+- Add the widget to a dashboard, open the settings.
 -- Set the path to the openweathermap folder like '/static/openweathermap/'  ('/static/' is the outside url for the path '/conf/html/')
 -- Customize the look and feel with the colors and sizes.
 -- Save the widget en size it to your likings.
