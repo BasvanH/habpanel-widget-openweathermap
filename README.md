@@ -5,6 +5,7 @@ OpenWeatherMap widget for HABpanel (Openhab). It's build for use with the free A
 
 ## Download
 **The widget json file and the images folder**: [openweathermap.widget.json](https://github.com/BasvanH/habpanel-widget-openweathermap)
+
 **Weather Underground icons**: [weather-icons](https://erikflowers.github.io/weather-icons/)
 
 ## Installation
