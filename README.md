@@ -1,7 +1,7 @@
-# OpenWeatherMap widget for HABpanel (Openhab)
+# OpenWeatherMap widget for HABPanel (OpenHAB)
 
 ## Description
-OpenWeatherMap widget for HABpanel (Openhab). It's build for use with the free API key, no paid subscription is nescacary.
+OpenWeatherMap widget for HABPanel (OpenHAB). It's build for use with the free API key, no paid subscription is nescacary.
 
 ## Download
 **The widget json file and the images folder**: [openweathermap.widget.json](https://github.com/BasvanH/habpanel-widget-openweathermap)
@@ -19,8 +19,10 @@ OpenWeatherMap widget for HABpanel (Openhab). It's build for use with the free A
 - Place the 'weather-icons-master' folder in the '/conf/html/openweathermap/' folder.
 - Place the 'images' folder in the '/conf/html/openweathermap/' folder.
 - Import the widget to a dashboard, open the settings.
--- Set the path to the openweathermap folder like '/conf/html/openweathermap/'.
+-- Set the path to the openweathermap folder like '/static/openweathermap/'  ('/static/' is the outside url for the path '/conf/html/')
 -- Customize the look and feel with the colors and sizes.
+-- Save the widget en size it to your likings.
+-- Enjoy en drop me a like here:
 
 The complete structure would look like this:
 
