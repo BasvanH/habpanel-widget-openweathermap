@@ -5,7 +5,7 @@ Number:Speed    		Weather_OWM_Wind_Speed			"Windspeed [%.1f km/h]"			           
 String		Weather_OWM_Station_Name		            "Station Name [%s]"				                {channel="openweathermap:weather-and-forecast:2fd1295b:local:station#name"}
 DateTime	Weather_OWM_ObservationTime		            "Observation time [%1$tY-%1$tm-%1$td]"		    {channel="openweathermap:weather-and-forecast:2fd1295b:local:current#time-stamp"}
 String		Weather_OWM_Condition			            "Condition [%s]"				                {channel="openweathermap:weather-and-forecast:2fd1295b:local:current#condition"}
-String		Weather_OWM_ConditionId			            "ConditionId [%s]"				                {channel="openweathermap:weather-and-forecast:2fd1295b:local:current#time-stamp"}
+String		Weather_OWM_ConditionId			            "ConditionId [%s]"				                {channel="openweathermap:weather-and-forecast:2fd1295b:local:current#condition-id"}
 Image		Weather_OWM_ConditionIcon			        "Icon [%s]"				                        {channel="openweathermap:weather-and-forecast:2fd1295b:local:current#icon"}
 String		Weather_OWM_ConditionIconId			        "IconId [%s]"			                        {channel="openweathermap:weather-and-forecast:2fd1295b:local:current#icon-id"}
 
