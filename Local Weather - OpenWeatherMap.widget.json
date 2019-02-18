@@ -41,5 +41,7 @@
             "default": "EEEE",
             "description": "Modify day format of forecast, for options see: https://docs.angularjs.org/api/ng/filter/date"
         }
-    ]
+    ],
+    "source_url": "https://raw.githubusercontent.com/BasvanH/habpanel-widget-openweathermap/master/Local%20Weather%20-%20OpenWeatherMap.widget.json",
+    "readme_url": "https://github.com/BasvanH/habpanel-widget-openweathermap"
 }
