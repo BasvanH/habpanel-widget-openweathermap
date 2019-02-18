@@ -1,5 +1,8 @@
 # OpenWeatherMap widget for HABPanel (OpenHAB)
 
+## Upgraders
+If you are upgrading, please download and import the new **openweathermap.widget.json** and update your items file with the new items [owm-widget.items](https://github.com/BasvanH/habpanel-widget-openweathermap/blob/master/owm-widget.items).
+
 ## Description
 OpenWeatherMap widget for HABPanel (OpenHAB). It's build for use with the free API key, no paid subscription is nescacary.
 Daily forecast based on next day @ 12:00
