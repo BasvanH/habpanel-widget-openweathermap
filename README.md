@@ -1,16 +1,15 @@
 # OpenWeatherMap widget for HABPanel (OpenHAB)
 
-## Upgraders
-If you are upgrading, please download and import the new **openweathermap.widget.json** and update your items file with the new items [owm-widget.items](https://github.com/BasvanH/habpanel-widget-openweathermap/blob/master/owm-widget.items).
+## Upgrading
+If you are upgrading, please download and import the new **[Local Weather - OpenWeatherMap.widget.json](https://github.com/BasvanH/habpanel-widget-openweathermap/blob/master/Local%20Weather%20-%20OpenWeatherMap.widget.json)** and update your items file with the new items **[owm-widget.items](https://github.com/BasvanH/habpanel-widget-openweathermap/blob/master/owm-widget.items)**.
 
 ## Description
 OpenWeatherMap widget for HABPanel (OpenHAB). It's build for use with the free API key, no paid subscription is nescacary.
 Daily forecast based on next day @ 12:00
 
 ## Download
-**The widget json file and the images folder**: [habpanel-widget-openweathermap](https://github.com/BasvanH/habpanel-widget-openweathermap)
-
-**Weather Underground icons**: [weather-icons](https://erikflowers.github.io/weather-icons/)
+- The widget json file and the images folder: **[Local Weather - OpenWeatherMap.widget.json](https://github.com/BasvanH/habpanel-widget-openweathermap)**
+- Weather Underground icons: **[weather-icons](https://erikflowers.github.io/weather-icons/)**
 
 ## Installation
 * Get a [free API key](https://openweathermap.org/api) from OpenWeatherMap.
@@ -22,7 +21,7 @@ Daily forecast based on next day @ 12:00
 * Extract the 'weather-icons-master.zip' and place the 'weather-icons-master' folder in the '/conf/html/openweathermap/' folder.
 * Place the 'images' folder in the '/conf/html/openweathermap/' folder.
 * Add the items to an items file, see [this post](https://community.openhab.org/t/openweathermap-widget-for-habpanel/65027) for the items. Change the id in the channel to your 'Local weather and forecast' thing id.
-* Import the downloaded **openweathermap.widget.json** widget to your HABpanel.
+* Import the downloaded **[Local Weather - OpenWeatherMap.widget.json](https://github.com/BasvanH/habpanel-widget-openweathermap/blob/master/Local%20Weather%20-%20OpenWeatherMap.widget.json)** widget to your HABpanel.
 * Add the widget to a dashboard, open the settings.
   * Customize the look and feel with the colors and sizes.
   * Save the widget en size it to your likings.
