@@ -8,7 +8,7 @@ OpenWeatherMap widget for HABPanel (OpenHAB). It's build for use with the free A
 Daily forecast based on next day @ 12:00
 
 ## Download
-- The widget json file and the images folder: **[Local Weather - OpenWeatherMap.widget.json](https://github.com/BasvanH/habpanel-widget-openweathermap)**
+- The widget json file, javascript file and the images folder: **[Local Weather - OpenWeatherMap.widget.json](https://github.com/BasvanH/habpanel-widget-openweathermap)**
 - Weather Underground icons: **[weather-icons](https://erikflowers.github.io/weather-icons/)**
 
 ## Installation
@@ -32,6 +32,7 @@ The complete structure would look like this:
 
 - /conf/html
   - /openweathermap
+    - owm.controller.js
     - /weather-icons-master
     - /images
       - feel.png
