@@ -20,6 +20,7 @@ Daily forecast based on next day @ 12:00
 * Create a folder within '/conf/html/' folder, name it 'openweathermap'.
 * Extract the 'weather-icons-master.zip' and place the 'weather-icons-master' folder in the '/conf/html/openweathermap/' folder.
 * Place the 'images' folder in the '/conf/html/openweathermap/' folder.
+* Place the 'owm.controller.js' file in the '/conf/html/openweathermap/' folder.
 * Add the items to [an items file](https://www.openhab.org/docs/configuration/items.html). Change the id in the channel to your 'Local weather and forecast' thing id.
 * Import the downloaded **[Local Weather - OpenWeatherMap.widget.json](https://github.com/BasvanH/habpanel-widget-openweathermap/blob/master/Local%20Weather%20-%20OpenWeatherMap.widget.json)** widget to your HABpanel.
 * Add the widget to a dashboard, open the settings.
