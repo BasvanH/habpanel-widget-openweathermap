@@ -33,7 +33,7 @@
 
 				// Find closest to value in array
 				function getClosest(goal) {
-					var hours = Array.from(Array(24).keys(), (h) => (h + 1) * 3);	// Generate array with stepsize 3 until 92
+					var hours = Array.from(Array(32).keys(), (h) => (h + 1) * 3);  // Generate array with stepsize 3 until 96
 					var closest = hours.reduce(function (prev, curr) {
 						return (Math.abs(curr - goal) < Math.abs(prev - goal) ? curr : prev);
 					});
