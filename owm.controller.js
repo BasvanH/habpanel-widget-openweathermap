@@ -12,6 +12,8 @@
 						var nextDay = new Date();
 
 						for (var day = 0; day < 4; day++) {
+							today = new Date();
+                                                        nextDay = new Date();
 							nextDay.setDate(today.getDate() + day);
 							nextDay.setHours(12);
 							var diffHours = Math.ceil(Math.abs(today.getTime() - nextDay.getTime()) / (1000 * 3600));
