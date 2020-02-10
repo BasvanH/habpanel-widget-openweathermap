@@ -9,21 +9,14 @@
 					console.log("Processing OWM widget forecast");
 					try {
 						var today = new Date();
-						var nextDay = new Date();
-
+						var hoursToNoon = (24 - today.getHours()) + 12;
 						for (var day = 0; day < 4; day++) {
-							today = new Date();
-                                                        nextDay = new Date();
-							nextDay.setDate(today.getDate() + day);
-							nextDay.setHours(12);
-							var diffHours = Math.ceil(Math.abs(today.getTime() - nextDay.getTime()) / (1000 * 3600));
-							setForecastItems(day, getClosest(diffHours));
+							setForecastItems(day, getClosest(hoursToNoon + (day * 24)));
 						}
-
 					} catch (err) {
 						console.log("Error during OWM widget: " + err)
 					}
-				}
+                                }
 
 				// Set forecast values for particular day
 				function setForecastItems(day, hour) {
