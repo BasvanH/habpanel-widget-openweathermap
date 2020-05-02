@@ -1,8 +1,5 @@
 # OpenWeatherMap widget for HABPanel (OpenHAB)
 
-## fork by karstenatgit
-Added detailed 3-hourly forecast for the next 2 days
-
 ## Upgrading
 If you are upgrading, please download and import the new **[Local Weather - OpenWeatherMap.widget.json](https://github.com/BasvanH/habpanel-widget-openweathermap/blob/master/Local%20Weather%20-%20OpenWeatherMap.widget.json)** and update your items file with the new items **[owm-widget.items](https://github.com/BasvanH/habpanel-widget-openweathermap/blob/master/owm-widget.items)**.
 
@@ -10,8 +7,8 @@ If you are upgrading, please download and import the new **[Local Weather - Open
 OpenWeatherMap widget for HABPanel (OpenHAB). It's build for use with the free API key, no paid subscription is nescacary.
 Daily forecast based on next day @ 12:00
 
-### fork by karstenatgit
-Added detailed 3-hourly forecast for the next 2 days. You can enable it in the configuration.
+02.05.2020:Fork by karstenatgit: 
+Added detailed 3-hourly and 6-hourly forecasts. You can enable them in the configuration.
 
 ## Download
 - The widget json file, javascript file and the images folder: **[Local Weather - OpenWeatherMap.widget.json](https://github.com/BasvanH/habpanel-widget-openweathermap)**
