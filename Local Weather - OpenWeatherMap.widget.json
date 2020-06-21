@@ -37,8 +37,7 @@
             "id": "show_detail_6h_3days",
             "label": "6-hourly for 3 days",
             "description": "Show 6-hourly forecasts for 3 days (12 columns)",
-            "default": "36",
-            "choices": "36,72"
+            "default": false
         },
         {
             "type": "checkbox",
