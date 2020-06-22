@@ -7,6 +7,9 @@ If you are upgrading, please download and import the new **[Local Weather - Open
 OpenWeatherMap widget for HABPanel (OpenHAB). It's build for use with the free API key, no paid subscription is nescacary.
 Daily forecast based on next day @ 12:00
 
+02.05.2020:Fork by karstenatgit: 
+Added more detailed 3-hourly and 6-hourly forecast views. You can enable them in the configuration.
+
 ## Download
 - The widget json file, javascript file and the images folder: **[Local Weather - OpenWeatherMap.widget.json](https://github.com/BasvanH/habpanel-widget-openweathermap)**
 - Weather Underground icons: **[weather-icons](https://erikflowers.github.io/weather-icons/)**
@@ -26,7 +29,7 @@ Daily forecast based on next day @ 12:00
 * Add the widget to a dashboard, open the settings.
   * Customize the look and feel with the colors and sizes.
   * Save the widget en size it to your likings.
-  * Enjoy en drop me a like here on the [Openhab cummunity forum](https://community.openhab.org/t/openweathermap-widget-for-habpanel/65027).
+  * Enjoy en drop me a like here on the [Openhab community forum](https://community.openhab.org/t/openweathermap-widget-for-habpanel/65027).
 
 The complete structure would look like this:
 
