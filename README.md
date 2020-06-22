@@ -7,7 +7,8 @@ If you are upgrading, please download and import the new **[Local Weather - Open
 OpenWeatherMap widget for HABPanel (OpenHAB). It's build for use with the free API key, no paid subscription is nescacary.
 Daily forecast based on next day @ 12:00
 
-02.05.2020:Fork by karstenatgit: 
+## Updates
+2020-05-02 Fork by @karstenatgit:
 Added more detailed 3-hourly and 6-hourly forecast views. You can enable them in the configuration.
 
 ## Download
