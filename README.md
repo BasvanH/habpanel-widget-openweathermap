@@ -1,5 +1,7 @@
 # OpenWeatherMap widget for HABPanel (OpenHAB)
 
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QARL4KXHHZSK8)
+
 ## Upgrading
 If you are upgrading, please download and import the new **[Local Weather - OpenWeatherMap.widget.json](https://github.com/BasvanH/habpanel-widget-openweathermap/blob/master/Local%20Weather%20-%20OpenWeatherMap.widget.json)** and update your items file with the new items **[owm-widget.items](https://github.com/BasvanH/habpanel-widget-openweathermap/blob/master/owm-widget.items)**.
 
